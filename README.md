@@ -1,4 +1,4 @@
-![capa projeto folclore](https://github.com/RosalindaLaass/Projeto-Folclore/assets/91973539/7c02a14d-a7ce-44ed-9991-7bf70e589581)
+![capa projeto folclore](https://github.com/RosalindaLaass/Projeto-Folclore/assets/91973539/be6f19ac-2d44-4978-9ac8-d77dfba8904a)
 
 ### ✒️ Sobre o projeto
 
