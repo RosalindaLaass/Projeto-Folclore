@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+body {
+    margin: 15px 70px;
+    text-align: center;
+    background-color: #FBBB30;
+    color: black;
+    padding: 20px;
+}
+
+.tituloSelecao {
+    font-family:"Jaldi", sans-serif;
+    color: #227A22;
+    font-size: 20px;
+}
+
+.textoInformativo{
+    font-family:"Jaldi", sans-serif;
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 17px;
+}
