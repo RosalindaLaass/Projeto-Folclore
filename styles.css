@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+@font-face{
+    font-family: 'kanopi';
+    src: url('KanopiBrazil-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     margin: 15px 70px;
@@ -8,10 +14,85 @@ body {
     padding: 20px;
 }
 
+.tituloPrincipal{
+    font-family: 'kanopi', 'Times', serif;
+}
+
 .tituloSelecao {
     font-family:"Jaldi", sans-serif;
     color: #227A22;
     font-size: 20px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  svg{
+    width: 30%;
+  }
+  .norte {
+    fill: #227A22;
+  }
+  .nordeste {
+    fill: #227A22;
+  }
+  .centro-oeste {
+    fill: #227A22;
+  }
+  .sudeste {
+    fill: #227A22;
+  }
+  .sul {
+    fill: #227A22;
+  }
+  path {
+    fill: #227A22;
+    stroke: white;
+    stroke-width: 1px;
+  }
+  path:hover {
+    fill: #21669e;
+    stroke: white;
+    stroke-width: 3px;
+    transition: fill 0.4s;
+  }
+  .tooltip {
+    pointer-events: none;
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    background: white;
+    padding: 10px 15px;
+    z-index: 5;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    color: #21669e;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    display: none;
+  }
+  .tooltip.active {
+    display: block;
+  }
+  .tooltip:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+  }
+
+.subtitulo{
+    font-family: 'kanopi', sans-serif;
 }
 
 .textoInformativo{
@@ -20,4 +101,23 @@ body {
     text-align: justify;
     font-size: 18px;
     line-height: 17px;
+}
+
+.textoLenda {
+    font-family:"Jaldi", sans-serif;
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 17px;
+}
+
+.tituloEstado {   
+    font-family: 'kanopi', 'Times', serif;
+    font-size: 50px;
+}
+
+.tituloLenda {
+  font-family: 'kanopi', 'Times', serif;
+  color: #227A22;
+  font-size: 30px;
 }
